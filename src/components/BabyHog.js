@@ -14,9 +14,9 @@ function BabyHog({ name, hobby, eyeColor }) {
     // perhaps something with e.target.name === "+"
     name = e.target.name;
     if (name === "+") {
-      setWeight(Number(weight + 0.5));
+      setWeight(weight + 0.5);
     } else if (name === "-" && weight > 0) {
-      setWeight(Number(weight - 0.5));
+      setWeight(weight - 0.5);
     }
   }
   console.log(eyeColor);
